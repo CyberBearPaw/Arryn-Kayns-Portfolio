@@ -5,8 +5,6 @@ github:
   another_url: "https://Arryn-Kayn-portfolio.com"
 github_username: "CyberBearPaw"
 remote_theme: "pages-themes/tactile@v0.2.0"
-  accent_color: "#ff5733"
-  show_downloads: true
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
