@@ -1,1 +1,14 @@
+---
+---
 
+@import "{{ site.theme }}";
+/* Custom Styles */
+body {
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text color */
+}
+
+.button, .download-button {
+    background-color: #ff5733; /* Orange button color */
+    color: #fff; /* White text on buttons */
+}
