@@ -1,5 +1,15 @@
 title: Arryn Kayn's Portfolio
-description: A brief description of my portfolio.
+description: this portfolio. showcses my experience and skills
+url: "https://Arryn-Kayn-portfolio.com"
+github_username: CyberBearPaw
 remote_theme: pages-themes/tactile@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-google-analytics
+google_analytics: UA-XXXXXXXX-X
+tactile:
+  accent_color: "#ff5733"
+  show_downloads: true
