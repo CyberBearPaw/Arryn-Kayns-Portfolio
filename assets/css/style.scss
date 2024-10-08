@@ -15,20 +15,26 @@ body {
 .cta-link {
     text-decoration: none;
     color: #0077b5; /* LinkedIn blue or any other color */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transition for color and text-decoration */
 }
+
 
 .cta-link:hover {
     color: #005983; /* Darker shade on hover */
     text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.1); /* Light gray background */
 }
 
+
 .contact-link {
-  color: #007bff; /* Change to your preferred link color */
-  text-decoration: none; /* Remove underline */
+    color: #007bff; /* Preferred link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 .contact-link:hover {
-  color: #0056b3; /* Change to a darker shade for hover */
-  text-decoration: underline; /* Add underline on hover */
+    color: #0056b3; /* Darker shade for hover */
+    text-decoration: underline; /* Add underline on hover */
 }
+
 
