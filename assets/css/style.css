@@ -1,7 +1,7 @@
 /* Custom Styles */
 body {
-    background-color: #f0f0f0; /* Light grey background for a softer look */
-    color: #333; /* Dark text color */
+    background-color: #e9f1f5; /* Light blue background for a professional look */
+    color: #2c3e50; /* Dark gray text color for readability */
     font-family: 'Arial', sans-serif; /* Clean and modern font */
     line-height: 1.6; /* Improved line spacing */
     margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #d7b2e1; /* Pastel purple for headings */
+    color: #34495e; /* Darker blue for headings */
 }
 
 h1 {
@@ -30,8 +30,8 @@ h3 {
 
 /* Buttons */
 .button, .download-button {
-    background-color: #ffb3b3; /* Light pastel orange color */
-    color: #fff; /* White text on buttons */
+    background-color: #3498db; /* Blue button color */
+    color: #ffffff; /* White text on buttons */
     border: none; /* Remove default button border */
     border-radius: 5px; /* Rounded corners */
     padding: 10px 15px; /* Padding for buttons */
@@ -41,32 +41,31 @@ h3 {
 }
 
 .button:hover, .download-button:hover {
-    background-color: #ff8c8c; /* Darker pastel orange on hover */
+    background-color: #2980b9; /* Darker blue on hover */
     transform: translateY(-2px); /* Subtle lift effect */
 }
 
 /* CTA Link Styles */
 .cta-link {
     text-decoration: none;
-    color: #0077b5; /* LinkedIn blue or any other color */
+    color: #2980b9; /* Blue for CTA links */
     transition: color 0.3s ease, text-decoration 0.3s ease; /* Transition for color and text-decoration */
 }
 
 .cta-link:hover {
-    color: #005983; /* Darker shade on hover */
+    color: #1f5d7b; /* Darker shade on hover */
     text-decoration: underline;
-    background-color: rgba(0, 0, 0, 0.1); /* Light gray background */
 }
 
 /* Contact Link Styles */
 .contact-link {
-    color: #007bff; /* Preferred link color */
+    color: #3498db; /* Preferred link color */
     text-decoration: none; /* Remove underline */
     transition: color 0.3s ease; /* Smooth transition */
 }
 
 .contact-link:hover {
-    color: #0056b3; /* Darker shade for hover */
+    color: #2980b9; /* Darker shade for hover */
     text-decoration: underline; /* Add underline on hover */
 }
 
