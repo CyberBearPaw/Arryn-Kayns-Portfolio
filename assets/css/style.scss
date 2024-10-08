@@ -1,7 +1,5 @@
----
----
+@import "{{ site.theme }}"; // Existing import statement
 
-@import "{{ site.theme }}";
 /* Custom Styles */
 body {
     background-color: #ffffff; /* White background */
@@ -12,3 +10,25 @@ body {
     background-color: #ff5733; /* Orange button color */
     color: #fff; /* White text on buttons */
 }
+
+/* CTA Link Styles */
+.cta-link {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn blue or any other color */
+}
+
+.cta-link:hover {
+    color: #005983; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+.contact-link {
+  color: #007bff; /* Change to your preferred link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-link:hover {
+  color: #0056b3; /* Change to a darker shade for hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
