@@ -13,7 +13,31 @@ layout: null
     <style>
         /* Additional styles can go here */
     </style>
+</head>---
+layout: null
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}"> <!-- Change to your compiled CSS file -->
+    <style>
+        body {
+            background-color: lightblue; /* Test background */
+            color: black; /* Text color */
+            text-align: center; /* Center text */
+        }
+    </style>
 </head>
+<body>
+    <h1>Test Header</h1>
+    <p>This is a test paragraph.</p>
+</body>
+</html>
+
 <body>
     <header>
         <h1>{{ site.title }}</h1>
