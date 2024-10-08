@@ -1,37 +1,43 @@
 /* Custom Styles */
 body {
-    background-color: #e0e0e0; /* Light gray background */
-    color: #2c3e50; /* Dark gray text color for readability */
+    background-color: #e9ecef; /* Light gray background for a softer look */
+    color: #333; /* Dark text color */
     font-family: 'Arial', sans-serif; /* Clean and modern font */
     line-height: 1.6; /* Improved line spacing */
     margin: 0;
     padding: 20px; /* Added padding for spacing */
+    text-align: center; /* Centering main content */
 }
 
-h1, h2, h3 {
-    color: #34495e; /* Darker blue for headings */
+.container {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the container */
+    text-align: left; /* Keep text left-aligned */
 }
 
 h1 {
+    color: #003366; /* Dark blue for main heading */
     font-size: 2.5rem; /* Larger font size for main heading */
     margin-bottom: 20px; /* Spacing below heading */
 }
 
 h2 {
+    color: #004080; /* Slightly lighter dark blue for section headings */
     font-size: 2rem; /* Medium font size for section headings */
     margin-top: 30px; /* Spacing above section headings */
     margin-bottom: 15px; /* Spacing below section headings */
 }
 
 h3 {
+    color: #00509e; /* Even lighter dark blue for subheadings */
     font-size: 1.5rem; /* Smaller font size for subheadings */
     margin: 15px 0; /* Spacing above and below subheadings */
 }
 
 /* Buttons */
 .button, .download-button {
-    background-color: #3498db; /* Blue button color */
-    color: #ffffff; /* White text on buttons */
+    background-color: #00509e; /* Dark blue button color */
+    color: #fff; /* White text on buttons */
     border: none; /* Remove default button border */
     border-radius: 5px; /* Rounded corners */
     padding: 10px 15px; /* Padding for buttons */
@@ -41,39 +47,27 @@ h3 {
 }
 
 .button:hover, .download-button:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #004080; /* Darker blue on hover */
     transform: translateY(-2px); /* Subtle lift effect */
 }
 
-/* CTA Link Styles */
-.cta-link {
-    text-decoration: none;
-    color: #2980b9; /* Blue for CTA links */
-    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transition for color and text-decoration */
-}
-
-.cta-link:hover {
-    color: #1f5d7b; /* Darker shade on hover */
-    text-decoration: underline;
-}
-
-/* Contact Link Styles */
-.contact-link {
-    color: #3498db; /* Preferred link color */
+/* Link Styles */
+.cta-link, .contact-link {
     text-decoration: none; /* Remove underline */
-    transition: color 0.3s ease; /* Smooth transition */
+    color: #00509e; /* Initial link color */
+    transition: color 0.3s ease; /* Smooth transition for color */
 }
 
-.contact-link:hover {
-    color: #2980b9; /* Darker shade for hover */
-    text-decoration: underline; /* Add underline on hover */
+.cta-link:hover, .contact-link:hover {
+    color: #003366; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Section Styles */
 section {
     background: #ffffff; /* White background for sections */
     padding: 20px; /* Padding for sections */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 15px; /* More rounded corners */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     margin-bottom: 20px; /* Spacing between sections */
 }
