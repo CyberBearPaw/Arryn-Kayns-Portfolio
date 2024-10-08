@@ -2,13 +2,49 @@
 
 /* Custom Styles */
 body {
-    background-color: #ffffff; /* White background */
+    background-color: #f5f5f5; /* Light gray background for a softer look */
     color: #333; /* Dark text color */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+    line-height: 1.6; /* Improved line spacing */
+    margin: 0;
+    padding: 20px; /* Added padding for spacing */
 }
 
+h1, h2, h3 {
+    color: #ff5733; /* Accent color for headings */
+}
+
+h1 {
+    font-size: 2.5rem; /* Larger font size for main heading */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+h2 {
+    font-size: 2rem; /* Medium font size for section headings */
+    margin-top: 30px; /* Spacing above section headings */
+    margin-bottom: 15px; /* Spacing below section headings */
+}
+
+h3 {
+    font-size: 1.5rem; /* Smaller font size for subheadings */
+    margin: 15px 0; /* Spacing above and below subheadings */
+}
+
+/* Buttons */
 .button, .download-button {
     background-color: #ff5733; /* Orange button color */
     color: #fff; /* White text on buttons */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for buttons */
+    font-size: 1rem; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and transform */
+}
+
+.button:hover, .download-button:hover {
+    background-color: #e54e29; /* Darker orange on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
 }
 
 /* CTA Link Styles */
@@ -18,14 +54,13 @@ body {
     transition: color 0.3s ease, text-decoration 0.3s ease; /* Transition for color and text-decoration */
 }
 
-
 .cta-link:hover {
     color: #005983; /* Darker shade on hover */
     text-decoration: underline;
     background-color: rgba(0, 0, 0, 0.1); /* Light gray background */
 }
 
-
+/* Contact Link Styles */
 .contact-link {
     color: #007bff; /* Preferred link color */
     text-decoration: none; /* Remove underline */
@@ -37,4 +72,40 @@ body {
     text-decoration: underline; /* Add underline on hover */
 }
 
+/* Section Styles */
+section {
+    background: #ffffff; /* White background for sections */
+    padding: 20px; /* Padding for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Spacing between sections */
+}
 
+/* List Styles */
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+li {
+    margin: 10px 0; /* Spacing between list items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px; /* Less padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .button, .download-button {
+        width: 100%; /* Full-width buttons on small screens */
+    }
+}
